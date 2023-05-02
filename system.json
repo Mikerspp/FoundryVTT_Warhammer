@@ -1,0 +1,41 @@
+{
+    "name": "vtt-warhammer-40k",
+    "title": "FoundryVTT Warhammer 40k",
+    "description": "",
+    "version": "1.7.2",
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "9",
+    "templateVersion": 11,
+    "author": "Mikerspp",
+    "scripts": [
+        "lib/math.js",
+        "scripts/chat-enhancements.js"
+    ],
+    "esmodules": ["module/custom-system-builder.js"],
+    "styles": [
+        "css/actor/character-display.css",
+        "css/actor/template-display.css",
+        "css/chat-message.css",
+        "css/attributes-editor.css",
+        "css/component-editor.css",
+        "css/user-input-editor.css",
+        "css/export-display.css",
+        "css/modifiers-editor.css"
+    ],
+    "packs": [],
+    "languages": [],
+    "dependencies": [
+        {
+            "name": "_chatcommands",
+            "type": "module",
+            "manifest": "https://github.com/League-of-Foundry-Developers/Chat-Commands-Lib/releases/download/1.4.0/module.json"
+        }
+    ],
+    "socket": false,
+    "gridDistance": 2,
+    "gridUnits": "m",
+    "url": "https://github.com/Mikerspp/FoundryVTT_Warhammer40k/",
+    "manifest": "https://raw.githubusercontent.com/Mikerspp/FoundryVTT_Warhammer40k/main/system.json",
+    "download": "https://github.com/Mikerspp/FoundryVTT_Warhammer40k/archive/refs/tags/1.2.zip"
+}
+
