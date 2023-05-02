@@ -1,5 +1,5 @@
 {
-    "title": "Custom System Builder",
+    "title": "foundryvtt_warhammer",
     "version": "2.2.4",
     "scripts": ["lib/math.js", "scripts/chat-enhancements.js"],
     "esmodules": ["module/custom-system-builder.js"],
@@ -15,7 +15,7 @@
     ],
     "gridDistance": 2,
     "gridUnits": "m",
-    "url": "https://gitlab.com/custom-system-builder/custom-system-builder/",
+    "url": "https://github.com/Mikerspp/FoundryVTT_Warhammer",
     "manifest": "https://gitlab.com/custom-system-builder/custom-system-builder/-/raw/main/system.json",
     "download": "https://gitlab.com/custom-system-builder/custom-system-builder/-/releases/2.2.4/downloads/custom-system-builder.zip",
     "id": "custom-system-builder",
