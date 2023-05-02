@@ -35,7 +35,7 @@
     "gridDistance": 2,
     "gridUnits": "m",
     "url": "https://github.com/Mikerspp/FoundryVTT_Warhammer40k/",
-    "manifest": "https://raw.githubusercontent.com/Mikerspp/FoundryVTT_Warhammer40k/main/system.json",
+    "manifest": "https://raw.githubusercontent.com/Mikerspp/FoundryVTT_Warhammer/main/system.json",
     "download": "https://github.com/Mikerspp/FoundryVTT_Warhammer40k/archive/refs/tags/1.2.zip"
 }
 
