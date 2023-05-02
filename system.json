@@ -34,8 +34,8 @@
     "socket": false,
     "gridDistance": 2,
     "gridUnits": "m",
-    "url": "https://github.com/Mikerspp/FoundryVTT_Warhammer40k/",
+    "url": "https://github.com/Mikerspp/FoundryVTT_Warhammer/",
     "manifest": "https://raw.githubusercontent.com/Mikerspp/FoundryVTT_Warhammer/main/system.json",
-    "download": "https://github.com/Mikerspp/FoundryVTT_Warhammer40k/archive/refs/tags/1.2.zip"
+    "download": "https://github.com/Mikerspp/FoundryVTT_Warhammer/archive/refs/tags/Unstable.zip"
 }
 
