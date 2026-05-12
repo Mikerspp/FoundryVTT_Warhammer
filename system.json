@@ -1,49 +1,27 @@
 {
-    "title": "foundryvtt_warhammer",
-    "version": "2.2.4",
-    "scripts": ["lib/math.js", "scripts/chat-enhancements.js"],
-    "esmodules": ["module/custom-system-builder.js"],
-    "styles": [
-        "css/actor/character-display.css",
-        "css/actor/template-display.css",
-        "css/chat-message.css",
-        "css/attributes-editor.css",
-        "css/component-editor.css",
-        "css/user-input-editor.css",
-        "css/export-display.css",
-        "css/modifiers-editor.css"
-    ],
-    "gridDistance": 2,
-    "gridUnits": "m",
-    "url": "https://github.com/Mikerspp/FoundryVTT_Warhammer",
-    "manifest": "https://gitlab.com/custom-system-builder/custom-system-builder/-/raw/main/system.json",
-    "download": "https://gitlab.com/custom-system-builder/custom-system-builder/-/releases/2.2.4/downloads/custom-system-builder.zip",
-    "id": "custom-system-builder",
-    "authors": [
-        {
-            "name": "Jean-Baptiste Louvet-Daniel",
-            "flags": {}
-        },
-        {
-            "name": "Martin1522",
-            "flags": {}
-        }
-    ],
-    "relationships": {
-        "requires": [
-            {
-                "id": "_chatcommands",
-                "type": "module",
-                "manifest": "https://github.com/League-of-Foundry-Developers/Chat-Commands-Lib/releases/download/1.4.0/module.json",
-                "compatibility": {
-                    "verified": "1.4.0"
-                }
-            }
-        ]
-    },
-    "compatibility": {
-        "minimum": "10",
-        "verified": "10.291",
-        "maximum": "10"
+  "id": "warhammer-40k-10th",
+  "version": "0.10.0",
+  "title": "Warhammer 40K 10th edition",
+  "description": "An implementation of the Warhammer 40K 10th edition ruleset",
+  "license": "LICENSE.txt",
+  "authors": [
+    {
+      "name": "daniel-tickell ",
+      "url": "https://github.com/daniel-tickell"
     }
+  ],
+  "esmodules": [
+    "module/warhammer.js"
+  ],
+  "styles": [
+    "styles/simple.css",
+    "libs/awesomplete/awesomplete.css"
+  ],
+  "url": "#{URL}#",
+  "manifest": "https://github.com/Mikerspp/FoundryVTT_Warhammer/blob/main/system.json",
+  "download": "https://github.com/daniel-tickell/foundryvtt-warhammer-40k-10th/releases/latest/download/system.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  }
 }
