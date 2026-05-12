@@ -17,7 +17,7 @@
     "styles/simple.css",
     "libs/awesomplete/awesomplete.css"
   ],
-  "url": "#{URL}#",
+  "url": "https://github.com/daniel-tickell/foundryvtt-warhammer-40k-10t",
   "manifest": "https://github.com/Mikerspp/FoundryVTT_Warhammer/blob/main/system.json",
   "download": "https://github.com/daniel-tickell/foundryvtt-warhammer-40k-10th/releases/latest/download/system.zip",
   "compatibility": {
